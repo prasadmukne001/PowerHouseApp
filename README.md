@@ -1,4 +1,5 @@
 # PowerHouseApp
+
 Following are the Key Features / Libs used.
 1. Kotlin + MVVM Architecture + LiveData.
 2. Hilt for dependency injection.
