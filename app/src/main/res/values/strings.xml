@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">PowerHouseApp</string>
+    <string name="app_name">Power House AI App</string>
+
+    <string name="retry">Retry</string>
+    <string name="some_error_on_server">Some Error Occurred on Server, Please Try Again</string>
+    <string name="no_internet">No Internet Connection, Please Connect To Internet And Try Again</string>
+    <string name="req_camera_permission">The camera permission is necessary</string>
+    <string name="first_image_taken">First Image Taken, Please take Second Image</string>
+    <string name="second_image_taken">Second Image Taken, Please take Depth Image on next Screen</string>
+    <string name="first_image_upload_started">First Image Upload Started</string>
+    <string name="second_image_upload_started">Second Image Upload Started</string>
+    <string name="error_photo_capture">Error taking photo</string>
+    <string name="image_uploaded">Image Uploaded Successfully</string>
+    <string name="depth_upload_started">Depth Image captured and Upload Started</string>
+
+    <!--  Google AR Core  -->
+    <string name="depth_use_explanation" translatable="false">When Depth is enabled on supported devices, virtual objects adapt to the environment by blending in with the real world.</string>
+    <string name="button_text_enable_depth" translatable="false">Enable</string>
+    <string name="button_text_disable_depth" translatable="false">Disable</string>
+    <string name="options_title_with_depth" translatable="false">Your device supports depth</string>
+    <string name="options_title_without_depth" translatable="false">Your device does not support depth</string>
+    <string name="done" translatable="false">Done</string>
+    <string-array name="depth_options_array" translatable="false">
+        <item>Enable depth</item>
+        <item>Show depth map</item>
+    </string-array>
+    <string name="options_title_instant_placement" translatable="false">Instant Placement options</string>
+    <string-array name="instant_placement_options_array" translatable="false">
+        <item>Enable Instant Placement</item>
+    </string-array>
+
+    <string name="searching_planes" translatable="false">Searching for surfaces...</string>
+    <string name="waiting_taps" translatable="false">Tap on a surface to place an object.</string>
 </resources>
